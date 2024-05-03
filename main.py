@@ -15,10 +15,6 @@ def get_joke():
 
 def len_joke():
     joke = get_joke()
-    print()
-    print('The joke from get_joke:', joke)
-    print()
-
     return len(joke)
 
 
